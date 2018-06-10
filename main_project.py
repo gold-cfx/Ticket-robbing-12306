@@ -21,9 +21,9 @@ def main():
     want_ticket_list = ['D2244']  # 列表存储，可以用多个车次
     want_type_list = ['二等座']  # 列表存储，可以用多个类型座位
 
-    book_user_name = '陈发兴'  # 姓名
-    book_user_person_num = '50023819940511441X'  # 身份证号码
-    # book_user_phone_num = '17300282023'  # 手机号码
+    book_user_name = ''  # 姓名
+    book_user_person_num = ''  # 身份证号码
+    # book_user_phone_num = ''  # 手机号码
     # book_user_type ='成人'  # 身份
 
     my_from_station_code = getStationCodes(my_from_station)[0]['station_code']
